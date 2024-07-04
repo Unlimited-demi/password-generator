@@ -1,0 +1,115 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #081f29; 
+    margin: 0;
+}
+
+.container {
+    background-color: #081f29;  
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); 
+    text-align: center;
+    width: 400px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #ccc; 
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: #28a745; 
+}
+
+p {
+    color: #999; 
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #000; 
+    background-color: #026115; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+}
+
+button:hover {
+    background-color: #026115; 
+}
+
+#passwords {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.password-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+}
+
+#passwords p {
+    background-color: #c6c5c5; 
+    color: #000000; 
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-family: monospace;
+    user-select: all;
+    word-break: break-all;
+}
+
+.copyBtn {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #000; 
+    background-color: #585a5f; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+copyBtn:hover {
+    background-color: #ff5e00; 
+}
+
+.stretch-goals {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.stretch-goals label {
+    display: block;
+    margin: 10px 0;
+    color: #ccc; 
+}
+
+.stretch-goals input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #32d4da; 
+    background-color: #333; 
+    color: #fff; 
+}
+
+.stretch-goals input[type="checkbox"] {
+    margin-right: 10px;
+    background-color: #333; 
+    color: #fff; 
+}
